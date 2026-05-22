@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/logo, stamp.png" type="image/png">
+  <title>Projects | Atchaya T</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+  <!-- FontAwesome 6 for sleek modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Animate On Scroll (AOS) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--================ Start Header Area =================-->
+  <header class="header_area sticky-top glass-nav">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid p-0">
+          <!-- Brand Logo -->
+          <a class="navbar-brand text-gradient" href="index.html">
+            <h2>ATCHAYA T</h2>
+          </a>
+          
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              
+              <!-- Dark/Light Theme Switcher -->
+              <li class="ms-lg-3 mt-3 mt-lg-0">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+                  <i class="fa-solid fa-moon"></i>
+                  <i class="fa-solid fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================ End Header Area =================-->
+
+  <!--================ Start Banner Area =================-->
+  <section class="hero_section d-flex align-items-center" style="padding: 120px 0 60px 0;">
+    <div class="hero_shape shape1"></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1 class="text-uppercase text-primary mb-2">My Projects</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Projects</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ End Banner Area =================-->
+
+  <!--================ Start Projects Grid Area =================-->
+  <section class="section_padding pt-4">
+    <div class="container">
+      <!-- Filter Buttons -->
+      <div class="filter-btn-group" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web-dev">Web Applications</button>
+        <button class="filter-btn" data-filter="data-analytics">Data Analytics</button>
+        <button class="filter-btn" data-filter="iot-other">IoT &amp; Security</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="row g-4 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <!-- 1. Alumni Management System -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/AMS.jpg" alt="Alumni Management System">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#amsModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#amsModal">Alumni Management System</a></h5>
+              <p class="text-secondary small mb-3">Secure community platform bridging educational alumni databases with administrative management panels.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">SQL</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Lofa Beauty Hub -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/LOFA BEAUTY HUB.png" alt="Lofa Beauty Hub">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#lofaModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#lofaModal">Lofa Beauty Hub</a></h5>
+              <p class="text-secondary small mb-3">Organic beauty products e-commerce app with cart functionality, reviews, and a seller registration dashboard.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">Django</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Build Mart -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/BUILD MART.png" alt="Build Mart">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#bmModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#bmModal">Build Mart</a></h5>
+              <p class="text-secondary small mb-3">E-commerce marketplace offering inventory searching and ordering utilities for construction raw materials.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. IAttend -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev iot-other">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/I ATTEND.png" alt="IAttend">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#iattendModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#iattendModal">IAttend</a></h5>
+              <p class="text-secondary small mb-3">Smart location-tracking attendance module utilizing webcam face recognition. Featured at StartupTN connect.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">Face Recog</span>
+                <span class="tech-badge">GPS API</span>
+                <span class="tech-badge">Web App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Spy Cam Detector -->
+        <div class="col-lg-4 col-md-6 project-grid-item iot-other">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/HIDDEN CAMERA FINDER.png" alt="Spy Cam Detector">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#spyModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#spyModal">Spy Camera Detector</a></h5>
+              <p class="text-secondary small mb-3">Security application design leveraging IR reflections and RF signal detection patterns to find hidden lenses.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">IR Tech</span>
+                <span class="tech-badge">RF Sensor</span>
+                <span class="tech-badge">College Proj</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Dine Desk -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/ddfc.png" alt="Dine Desk">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#ddModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#ddModal">Dine Desk</a></h5>
+              <p class="text-secondary small mb-3">Restaurant order queue and dining table booking portal designed to manage live ticketing flow.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML/CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Expiryfy -->
+        <div class="col-lg-4 col-md-6 project-grid-item web-dev iot-other">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/Expiryfy.jpg" alt="Expiryfy">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#efyModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#efyModal">Expiryfy</a></h5>
+              <p class="text-secondary small mb-3">Inventory manager calculating products expiry dates, generating alert listings and database queries.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">Date Calcs</span>
+                <span class="tech-badge">Web Dev</span>
+                <span class="tech-badge">Databases</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Walmart Product Analysis -->
+        <div class="col-lg-4 col-md-6 project-grid-item data-analytics">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/walmart_product_analysis.jpeg" alt="Walmart Product Analysis">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#walmartModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#walmartModal">Walmart Product Analysis</a></h5>
+              <p class="text-secondary small mb-3">Analytical study of product demand cycles, customer gender groups, and rating distributions using Pandas.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Seaborn</span>
+                <span class="tech-badge">Jupyter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. E-Commerce Annual Report 2025 -->
+        <div class="col-lg-4 col-md-6 project-grid-item data-analytics">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="img/portfolio/E-commerce excel analysis.jpeg" alt="E-Commerce Annual Report 2025">
+              <div class="project-overlay">
+                <button class="btn btn-light btn-sm fw-bold" data-bs-toggle="modal" data-bs-target="#ecarModal">View Case Study</button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h5 class="text-primary mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#ecarModal">E-Commerce Report 2025</a></h5>
+              <p class="text-secondary small mb-3">Data visualization report demonstrating product margins, transaction trends, and sales distributions.</p>
+              <div class="project-tech-badges">
+                <span class="tech-badge">Power BI</span>
+                <span class="tech-badge">Excel</span>
+                <span class="tech-badge">Data Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ End Projects Grid Area =================-->
+
+  <!--================ Start Case Study Modals =================-->
+  
+  <!-- 1. AMS Modal -->
+  <div class="modal fade" id="amsModal" tabindex="-1" aria-labelledby="amsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="amsModalLabel">Alumni Management System</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/AMS.jpg" alt="Alumni Management System" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Web Development</li>
+                  <li class="mb-2"><strong>Client:</strong> BCA Final Year</li>
+                  <li class="mb-2"><strong>Completed:</strong> 7 Feb 2024</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                The <strong>Alumni Management System</strong> connects alumni with their institutions through a secure web portal. Alumni register to update professional details, and administrators manage alumni records, approve registrations, and oversee collegiate events.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Key Modules &amp; Technical Scope:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>User Module:</strong> Alumni register, login, update contact details, and professional updates.</li>
+                <li class="mb-1"><strong>Admin Module:</strong> System administrators inspect, approve, or delete alumni profiles.</li>
+                <li class="mb-1"><strong>Event Module:</strong> Organizes reuniting notifications, seminars, and calendar alerts.</li>
+                <li class="mb-1"><strong>Database:</strong> SQL structure built to efficiently manage relational tables and fetch records.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="ams.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. LOFA Modal -->
+  <div class="modal fade" id="lofaModal" tabindex="-1" aria-labelledby="lofaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="lofaModalLabel">Lofa Beauty Hub</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/LOFA BEAUTY HUB.png" alt="Lofa Beauty Hub" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Web Development (E-Com)</li>
+                  <li class="mb-2"><strong>Client:</strong> Organic Artisans</li>
+                  <li class="mb-2"><strong>Completed:</strong> 25 Sep 2024</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                An e-commerce application designed to promote organic products. The portal removes middle-tier margins, allowing creators to upload products (soaps, herbal creams, and oils) while buyers filter items by ingredients and pricing.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Key Features &amp; Architecture:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Sellers Panel:</strong> Upload listings, update stocks, verify buyers' payments.</li>
+                <li class="mb-1"><strong>Frontend Grid:</strong> Search filters matching skin categories, responsive CSS, and Bootstrap layers.</li>
+                <li class="mb-1"><strong>Backend Engine:</strong> Python Django frameworks serving templates and database models.</li>
+                <li class="mb-1"><strong>Database:</strong> SQLite database tracking authentication rules, customer records, and checkout logs.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="LBH.HTML" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. BM Modal -->
+  <div class="modal fade" id="bmModal" tabindex="-1" aria-labelledby="bmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="bmModalLabel">Build Mart</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/BUILD MART.png" alt="Build Mart" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Web Development</li>
+                  <li class="mb-2"><strong>Client:</strong> Sudharshan</li>
+                  <li class="mb-2"><strong>Completed:</strong> 20 Jun 2025</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                <strong>Build Mart</strong> simplifies procurement for raw building materials, hardware products, and electrical components. Contractors and home-builders search and add materials (steel, bricks, tiles) to their carts, avoiding the manual verification processes.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Development details:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Responsive Search:</strong> Quick filters categorized by raw goods, plumbing tools, and paints.</li>
+                <li class="mb-1"><strong>Shopping Cart Flow:</strong> JavaScript functions storing quantities and summing pricing structures.</li>
+                <li class="mb-1"><strong>Client-Side:</strong> Dynamic responsive layout styled with custom Bootstrap templates.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="bm.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. IAttend Modal -->
+  <div class="modal fade" id="iattendModal" tabindex="-1" aria-labelledby="iattendModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="iattendModalLabel">IAttend Attendance System</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/I ATTEND.png" alt="IAttend" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Mobile &amp; Web Security</li>
+                  <li class="mb-2"><strong>Startup Hub:</strong> StartupTN DPIIT Connect</li>
+                  <li class="mb-2"><strong>Status:</strong> In Progress</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                A smart attendance platform automating check-ins using device webcams (face recognition) and verifying locations via GPS coordinate checks. Solves fraudulent check-ins and proxy registrations.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Key Innovations:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Face Verification:</strong> Custom webcam integrations validating biometric details.</li>
+                <li class="mb-1"><strong>GPS Geolocation:</strong> Locks attendance check-ins within strict institutional borders.</li>
+                <li class="mb-1"><strong>Role Dashboards:</strong> Dedicated screens for Admins, Instructors, and Students.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="iattend.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Spy Cam Modal -->
+  <div class="modal fade" id="spyModal" tabindex="-1" aria-labelledby="spyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="spyModalLabel">Spy Camera Detector</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/HIDDEN CAMERA FINDER.png" alt="Spy Cam Detector" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Security Application</li>
+                  <li class="mb-2"><strong>Completed:</strong> 20 Jul 2025</li>
+                  <li class="mb-2"><strong>Context:</strong> College IoT Project</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                Designed to protect personal privacy in public changing rooms and hotel layouts. Highlights anomalous red-dot reflections from hidden lenses, warning users through buzzers, LEDs, or alert triggers.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Scientific Design &amp; Scope:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Lens reflection:</strong> Scans red laser grids, highlighting miniature optics.</li>
+                <li class="mb-1"><strong>RF Signal Mapping:</strong> Checks for active high-frequency waves indicating spy cam relays.</li>
+                <li class="mb-1"><strong>User indicators:</strong> Immediate warning outputs (sound/buzzer triggers).</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="hcd.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Dine Desk Modal -->
+  <div class="modal fade" id="ddModal" tabindex="-1" aria-labelledby="ddModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="ddModalLabel">Dine Desk Restaurant Portal</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/ddfc.png" alt="Dine Desk" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Web Development</li>
+                  <li class="mb-2"><strong>Completed:</strong> June 2025</li>
+                  <li class="mb-2"><strong>Target:</strong> Food Outlets</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                <strong>Dine Desk</strong> helps managing table capacities and billing lists. Designed to ease queues in high-density dining environments, it maps available table grids, processes customer menus, and forwards slips directly to cooks' monitors.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">System Utilities:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Interactive Tables:</strong> Visual seat layouts showing filled/empty grids.</li>
+                <li class="mb-1"><strong>Bill Calculations:</strong> Dynamic JavaScript receipts summing tax items automatically.</li>
+                <li class="mb-1"><strong>Design:</strong> Beautiful glass layouts utilizing Bootstrap styling rules.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="dd.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Expiryfy Modal -->
+  <div class="modal fade" id="efyModal" tabindex="-1" aria-labelledby="efyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="efyModalLabel">Expiryfy Tracker</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/Expiryfy.jpg" alt="Expiryfy" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Web Application</li>
+                  <li class="mb-2"><strong>Completed:</strong> March 2025</li>
+                  <li class="mb-2"><strong>Concept:</strong> Inventory Health</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                Designed to minimize shelf waste for perishables. <strong>Expiryfy</strong> stores manufactured dates, calculates remaining shelf lifespans, and outputs warning rows in dashboard reports, highlighting products approaching deadline windows.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Database Scope:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Countdown calculations:</strong> Triggers calendar updates via internal date-difference rules.</li>
+                <li class="mb-1"><strong>Category Alerts:</strong> Separates medical items from food/dairy layouts.</li>
+                <li class="mb-1"><strong>Clean interface:</strong> Color-coded warning columns (Green, Yellow, Red indicators).</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="efy.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Walmart Modal -->
+  <div class="modal fade" id="walmartModal" tabindex="-1" aria-labelledby="walmartModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="walmartModalLabel">Walmart Product Analysis</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/walmart_product_analysis.jpeg" alt="Walmart Product Analysis" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Data Science / Python</li>
+                  <li class="mb-2"><strong>Completed:</strong> 29 Dec 2025</li>
+                  <li class="mb-2"><strong>Focus:</strong> Sales Data Analysis</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                Analyzing high-volume transaction listings to locate demand fluctuations, category profits, and customer demographic metrics. Serves as a data preparation pipeline to support strategic inventory planning.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Analytic Operations:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Data Cleansing:</strong> Standardizing column names, filling null fields, and handling outliers in product prices.</li>
+                <li class="mb-1"><strong>Demographic Trends:</strong> Checking buyer behavior split by age groups and genders.</li>
+                <li class="mb-1"><strong>Visual Charts:</strong> Plotting bar distributions and boxplots via Seaborn and Matplotlib.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="wm.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. ECAR Modal -->
+  <div class="modal fade" id="ecarModal" tabindex="-1" aria-labelledby="ecarModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card p-0">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="ecarModalLabel">E-Commerce Report 2025</h4>
+          <button type="button" class="close-modal-btn border-0" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <img src="img/portfolio/E-commerce excel analysis.jpeg" alt="E-Commerce Annual Report 2025" class="img-fluid rounded-4 border">
+              <div class="glass-card mt-3 p-3">
+                <h6 class="text-primary fw-bold">Project Details:</h6>
+                <ul class="list-unstyled small mb-0 text-secondary">
+                  <li class="mb-2"><strong>Category:</strong> Business Intelligence</li>
+                  <li class="mb-2"><strong>Completed:</strong> October 2025</li>
+                  <li class="mb-2"><strong>Tools:</strong> Power BI, Excel</li>
+                  <li><strong>Rating:</strong> <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p class="text-secondary">
+                A business dashboard displaying margins and category trends. Combines transaction sheets, formats columns, and plots sales cycles, highlighting geographic revenues and return-on-ad-spend (ROAS) trends.
+              </p>
+              <h6 class="text-primary fw-bold mt-4">Scope &amp; Insights:</h6>
+              <ul class="text-secondary small">
+                <li class="mb-1"><strong>Interactive Slicers:</strong> Filter data by regions, date quarters, and category brands.</li>
+                <li class="mb-1"><strong>Calculated Measures:</strong> DAX functions calculating net yields, profit margins, and cohort sizes.</li>
+                <li class="mb-1"><strong>Excel Pipeline:</strong> Merging worksheets and resolving duplicates prior to database imports.</li>
+              </ul>
+              <div class="d-flex gap-2 mt-4">
+                <a href="ecar.html" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-file-lines me-1"></i>Detail Page</a>
+                <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="btn btn-dark btn-sm"><i class="fa-brands fa-github me-1"></i>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--================ End Case Study Modals =================-->
+
+  <!--================Footer Area =================-->
+  <footer class="footer_area">
+    <div class="container text-center">
+      <div class="footer_logo">
+        <a href="index.html">
+          <h2 class="text-gradient">ATCHAYA T</h2>
+        </a>
+        <p class="text-secondary" style="max-width: 500px; margin: 0 auto;">Aspiring Software Developer &amp; Data Analyst. Specializing in Python, SQL, and Power BI dashboards.</p>
+      </div>
+
+      <!-- Quick Nav Links -->
+      <ul class="footer_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume/ATCHAYA T.pdf" download>Resume</a></li>
+      </ul>
+
+      <!-- Social Media Links -->
+      <div class="footer_social_links">
+        <a href="https://www.instagram.com/atchaya_thiyagu_21/?__pwa=1" target="_blank" class="social-icon-btn" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/atchaya-thiyagu/" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="social-icon-btn" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://wa.me/qr/KYVFVUKGUWHEA1" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <div class="footer_copyright">
+        <p class="mb-0">&copy; <span id="year">2026</span> Atchaya T</p>
+      </div>
+    </div>
+  </footer>
+  <!--================End Footer Area =================-->
+
+  <!-- Bootstrap 5 JS Bundle (includes Popper.js) -->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Animate On Scroll (AOS) JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom Script -->
+  <script src="js/theme.js"></script>
+  
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-out-quad'
+    });
+    
+    // Set dynamic copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

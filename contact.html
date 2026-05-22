@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/logo, stamp.png" type="image/png">
+  <title>Contact Me | Atchaya T</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+  <!-- FontAwesome 6 for sleek modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Animate On Scroll (AOS) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--================ Start Header Area =================-->
+  <header class="header_area sticky-top glass-nav">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid p-0">
+          <!-- Brand Logo -->
+          <a class="navbar-brand text-gradient" href="index.html">
+            <h2>ATCHAYA T</h2>
+          </a>
+          
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
+              <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+              
+              <!-- Dark/Light Theme Switcher -->
+              <li class="ms-lg-3 mt-3 mt-lg-0">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+                  <i class="fa-solid fa-moon"></i>
+                  <i class="fa-solid fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================ End Header Area =================-->
+
+  <!--================ Start Banner Area =================-->
+  <section class="hero_section d-flex align-items-center" style="padding: 120px 0 60px 0;">
+    <div class="hero_shape shape1"></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1 class="text-uppercase text-primary mb-2">Contact Me</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ End Banner Area =================-->
+
+  <!--================ Start Contact Details & Form =================-->
+  <section class="section_padding pt-4">
+    <div class="container">
+      <div class="row g-5">
+        
+        <!-- Contact Information Cards -->
+        <div class="col-lg-5" data-aos="fade-right">
+          <h3 class="text-primary mb-4">Get In Touch</h3>
+          <p class="text-secondary mb-4">
+            Feel free to contact me with any inquiries about junior development roles, data analyst positions, internship opportunities, or collaboration plans.
+          </p>
+
+          <!-- Address Card -->
+          <div class="glass-card contact-item-card glow-effect">
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-info-text">
+              <h6>Location</h6>
+              <p>Kodavasal, Thiruvarur District, Tamil Nadu, India</p>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="glass-card contact-item-card glow-effect">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-info-text">
+              <h6>Phone Number</h6>
+              <p><a href="tel:+919361768480">+91 93617 68480</a></p>
+            </div>
+          </div>
+
+          <!-- Email Card -->
+          <div class="glass-card contact-item-card glow-effect">
+            <div class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-info-text">
+              <h6>Email Address</h6>
+              <p><a href="mailto:atchayathiyagu21@gmail.com">atchayathiyagu21@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="glass-card contact-form-card">
+            <h3 class="text-primary mb-4">Send Message</h3>
+            
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <!-- Name -->
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                    <label for="name">Your Name</label>
+                    <div class="invalid-feedback">Please enter your name (min 3 chars).</div>
+                  </div>
+                </div>
+                <!-- Email -->
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                    <label for="email">Email Address</label>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                  </div>
+                </div>
+                <!-- Subject -->
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="subject" placeholder="Collaboration Request" required>
+                    <label for="subject">Subject</label>
+                    <div class="invalid-feedback">Please enter a subject (min 3 chars).</div>
+                  </div>
+                </div>
+                <!-- Message -->
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" id="message" placeholder="Leave a message here" style="height: 150px" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="invalid-feedback">Please enter your message (min 10 chars).</div>
+                  </div>
+                </div>
+                <!-- Submit -->
+                <div class="col-12 text-end">
+                  <button type="submit" class="btn-modern btn-modern-primary border-0 w-100 justify-content-center">
+                    <span>Send Message</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Google Maps Frame -->
+      <div class="row" data-aos="fade-up">
+        <div class="col-12">
+          <div class="map-box">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.848834469792!2d79.46747514930353!3d10.871465225219973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a554cccdbdf7ea5%3A0x7d0ab43586cd5b3!2sKodavasal%2C%20Tamil%20Nadu%20612601!5e0!3m2!1sen!2sin!4v1716382100000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--================ End Contact Details Area =================-->
+
+  <!--================ Toast Alert Notification =================-->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="successToast" class="toast toast-success" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="4000">
+      <div class="toast-header border-0 bg-transparent">
+        <strong class="me-auto text-success"><i class="fa-solid fa-circle-check me-2"></i>Message Sent!</strong>
+        <small class="text-muted">Just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Thank you for contacting me. I will review your message and reply as soon as possible.
+      </div>
+    </div>
+  </div>
+  <!--================ End Toast Notification =================-->
+
+  <!--================Footer Area =================-->
+  <footer class="footer_area">
+    <div class="container text-center">
+      <div class="footer_logo">
+        <a href="index.html">
+          <h2 class="text-gradient">ATCHAYA T</h2>
+        </a>
+        <p class="text-secondary" style="max-width: 500px; margin: 0 auto;">Aspiring Software Developer &amp; Data Analyst. Specializing in Python, SQL, and Power BI dashboards.</p>
+      </div>
+
+      <!-- Quick Nav Links -->
+      <ul class="footer_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume/ATCHAYA T.pdf" download>Resume</a></li>
+      </ul>
+
+      <!-- Social Media Links -->
+      <div class="footer_social_links">
+        <a href="https://www.instagram.com/atchaya_thiyagu_21/?__pwa=1" target="_blank" class="social-icon-btn" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/atchaya-thiyagu/" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ATCHAYA-THIYAGARAJAN-21" target="_blank" class="social-icon-btn" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://wa.me/qr/KYVFVUKGUWHEA1" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <div class="footer_copyright">
+        <p class="mb-0">&copy; <span id="year">2026</span> Atchaya T</p>
+      </div>
+    </div>
+  </footer>
+  <!--================End Footer Area =================-->
+
+  <!-- Bootstrap 5 JS Bundle (includes Popper.js) -->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Animate On Scroll (AOS) JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom Script -->
+  <script src="js/theme.js"></script>
+  
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-out-quad'
+    });
+    
+    // Set dynamic copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
